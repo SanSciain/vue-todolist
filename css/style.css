@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    margin: 10rem auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgreen;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.input-wrapper{
+    margin-bottom: 2rem;
+}
+
+.list-wrapper{
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: lightcyan;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    color:red;
+    margin-left: 1rem;
+}
